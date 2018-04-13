@@ -110,7 +110,7 @@
                     <a href="javascript:;" @click="ClickBet('足球单式',key,items.Match_ID,items.Match_Date,{zhu:items.Match_Master,ke:items.Match_Guest},'单',items.Match_DsDpl,'0','Match_DsDpl')"
                        v-if="items.Match_DsDpl!=null&&items.Match_DsDpl!='0'"><span
                       style="color: black">单：</span>{{items.Match_DsDpl}}</a><br>
-                    <a href="javascript:;" @click="ClickBet('足球单式',key,items.Match_ID,items.Match_Date,{zhu:items.Match_Master,ke:items.Match_Guest},'双',items.Match_DsDpl,'0','Match_DsDpl')"
+                    <a href="javascript:;" @click="ClickBet('足球单式',key,items.Match_ID,items.Match_Date,{zhu:items.Match_Master,ke:items.Match_Guest},'双',items.Match_DsSpl,'0','Match_DsDpl')"
                        v-if="items.Match_DsSpl!=null&&items.Match_DsSpl!='0'"><span
                       style="color: black">双：</span>{{items.Match_DsSpl}}</a><br>
                   </td>
